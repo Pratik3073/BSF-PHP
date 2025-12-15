@@ -19,7 +19,21 @@
         }
         say_hello2("world");
         say_hello2("everyone");
-   ?>
 
+        $name = "pratik";
+        say_hello2($name);
+
+        function say_hello3($gretting,$target,$punctuation){
+            echo $gretting . "," . $target . ",". $punctuation . "<br />";
+        }
+        say_hello3("hello",$name,"!");
+   ?>
+<br />
+<?php
+    function addition($val1,$val2){
+        $sum = $val1 + $val2;
+        echo addition(3,4);
+    }
+?>
 </body>
 </html>
