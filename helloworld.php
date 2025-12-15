@@ -14,7 +14,7 @@
 
 */
 echo "Hello World!"; ?>  <br/>  
-<?php print "Hello World!"; ?>  <br/>
+<?php print "Hello World!"; // echo is like print ?>   <br/>
 <?php echo "Hello" . "World!"; ?>  <br/>
 <?php echo 2+3 ; ?>
 </body>
