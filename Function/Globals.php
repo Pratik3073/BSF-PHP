@@ -32,6 +32,14 @@
     echo $bar . "<br/ >";
 
     ?>
+<br />
+<?php
+    function paint($room="office",$color = "blue"){  // defualt value
+        echo "the color of the {$room} is {$color}.";
+    }
+    paint("bedroom","blue");
+?>
+
 </body>
 
 </html>
