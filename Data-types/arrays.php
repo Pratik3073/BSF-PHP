@@ -14,7 +14,10 @@
    <br/>
    <?php echo $array2[3];?>
    <br/>
-   <?php $array3 = array("first_name" => "pratik","last_name"=> "kadam");///(key–value pair)This is an associative array in PHP?>
+   <?php $array3 = array("first_name" => "pratik","last_name"=> "kadam","lang" => ["english","marathi"]);///(key–value pair)This is an associative array in PHP
+   var_dump($array3);
+   // ?>
+  var_dump($array3);
    <?php echo $array3["first_name"]." ".$array3["last_name"];?><br />
    <?php $array3["first_name"]="pradeep";?>
    <?php echo $array3["first_name"]." ".$array3["last_name"];?>

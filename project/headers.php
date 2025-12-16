@@ -13,8 +13,8 @@
 
 <body>
     <?php
-    //this is how you redirect a page
-    header("location: basic.html");
+        //this is how you redirect a page
+        header("location: basic.html");
     ?>
 
 </body>
